@@ -1,7 +1,8 @@
-## Put comments here that give an overall description of what your
-## functions do
-
-## Write a short comment describing this function
+## The following functions are meant to help under computational load 
+## Inverting the same matrix multiple times can result in a unneccessary overhead
+## makeCachematrix and cacheSolve allow to compute the inverse just once and 
+## put it to cache so that it can be associated with the original matrix
+## and never be calculated again
 
 ## makeCacheMatrix provides tha ability to set and get the value of the matrix
 ## and of its inverse (note: matrix is assumed to be always invertible)
